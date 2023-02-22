@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rain *.css
+recursive-include rain *.csv
+recursive-include rain *.html
+recursive-include rain *.ico
+recursive-include rain *.js
+recursive-include rain *.json
+recursive-include rain *.md
+recursive-include rain *.png
+recursive-include rain *.py
+recursive-include rain *.svg
+recursive-include rain *.txt
+recursive-exclude rain *.pyc

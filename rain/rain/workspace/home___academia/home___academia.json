@@ -1,0 +1,95 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Home - Academia</span>\",\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Academia\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Search Campaigns\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"My Campaigns\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Submitted Proposals\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Accepted Proposals\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Proposals\",\"col\":4}}]",
+ "creation": "2022-11-21 16:34:26.723822",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "folder-normal",
+ "idx": 0,
+ "label": "Home - Academia",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Academia",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Academia Information",
+   "link_count": 0,
+   "link_to": "Academia",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-11-22 18:42:39.735698",
+ "modified_by": "Administrator",
+ "module": "Rain",
+ "name": "Home - Academia",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "Academia"
+  }
+ ],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "{} Campaigns",
+   "label": "My Campaigns",
+   "link_to": "Campaign",
+   "stats_filter": "{\"campaign_status\":[\"=\",\"Assigned\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Open for Proposals",
+   "label": "Search Campaigns",
+   "link_to": "Campaign",
+   "stats_filter": "{\"campaign_status\":[\"=\",\"Open for Proposals\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Submitted",
+   "label": "Submitted Proposals",
+   "link_to": "Proposal",
+   "stats_filter": "{\"status\":[\"=\",\"Submitted\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "{} Accepted",
+   "label": "Accepted Proposals",
+   "link_to": "Proposal",
+   "stats_filter": "{\"status\":[\"=\",\"Accepted\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "All Proposals",
+   "link_to": "Proposal",
+   "type": "DocType"
+  }
+ ],
+ "title": "Home - Academia"
+}

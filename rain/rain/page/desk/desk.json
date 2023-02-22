@@ -1,0 +1,23 @@
+{
+ "content": null,
+ "creation": "2022-11-18 15:36:13.300592",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2022-11-18 15:36:13.300592",
+ "modified_by": "Administrator",
+ "module": "Rain",
+ "name": "desk",
+ "owner": "Administrator",
+ "page_name": "desk",
+ "roles": [
+  {
+   "role": "Academia"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Desk"
+}
